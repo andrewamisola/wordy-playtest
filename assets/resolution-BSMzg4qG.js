@@ -1,1 +1,0 @@
-import{Dn as e,En as t}from"./index-CmWZgvL6.js";var n=2,r=new WeakSet;function i(i){let a=()=>{let t=Math.min(Math.max(window.devicePixelRatio||1,1),n)*e().scale;i.setHardwareScalingLevel(1/t)};a(),!r.has(i)&&(r.add(i),window.addEventListener(t,a),i.onDisposeObservable.add(()=>window.removeEventListener(t,a)))}export{i as t};
